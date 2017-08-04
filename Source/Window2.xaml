@@ -1,0 +1,34 @@
+﻿<Window x:Class="pricey_kathu1.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MY VERY FIRST CODED LETTER TO YOU" Height="670" Width="950" ResizeMode="NoResize" HorizontalAlignment="Center" VerticalAlignment="Center" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,4,5" RenderTransformOrigin="0,0" Width="950" Height="670" VerticalAlignment="Center">
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <Grid.Background>
+            <ImageBrush ImageSource="images/Love-Letter-Background-Wallpapers-07025.png"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="7*"/>
+            <ColumnDefinition Width="235*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock HorizontalAlignment="Left" Margin="167,207,0,0" TextWrapping="Wrap" Text="First I apologize for the misbehaviour which I done in the past. I feel very nervous to express my thought on you, because your friend told me you are strict and straight forward. Don't feel shame to cross when I'm under the tree." VerticalAlignment="Top" Height="259" Width="552" FontFamily="Vivaldi" FontSize="36" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="179,475,0,0" TextWrapping="Wrap" Text="Have a pleasant mind and health!!!!" VerticalAlignment="Top" Height="52" Width="587" FontFamily="Vivaldi" FontSize="48" Grid.Column="1">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.452"/>
+                    <RotateTransform Angle="-0.434"/>
+                    <TranslateTransform Y="1.12"/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+
+    </Grid>
+</Window>
